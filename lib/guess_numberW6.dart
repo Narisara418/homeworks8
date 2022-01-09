@@ -189,8 +189,7 @@ class HomePage extends StatelessWidget {
                           builder: (BuildContext context) {
                             return AlertDialog(
                               title: Text('RESULT'),
-                              content: Text(input +
-                                  ' is CORRECT!\n Total guesses: ${game.guessCount}'),
+                              content: Text(input + ' is CORRECT!\n Total guesses: ${game.guessCount}'),
                               actions: [
                                 TextButton(
                                     onPressed: () {
