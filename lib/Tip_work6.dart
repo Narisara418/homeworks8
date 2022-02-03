@@ -52,7 +52,7 @@ class HomePage extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              /* Row(
+              /*Row(
                 children: [
                   Container(width: 50.0, height: 50.0, color: Colors.blue),
                   Expanded(
